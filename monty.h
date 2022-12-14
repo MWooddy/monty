@@ -3,6 +3,17 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <assert.h>
+#include <ctype.h>
+#include <locale.h>
+#include <stdarg.h>
+#include <string.h>
+#include <signal.h>
+#include <strings.h>
+#include <ctype.h>
+#include <stddef.h>
+#include <stdnoreturn.h>
+#include <threads.h>
 
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)

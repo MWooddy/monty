@@ -1,4 +1,6 @@
 #include "monty.h"
+#include <stdio.h>
+#include <stdnoreturn.h>
 
 op_env_t op_env = {NULL, NULL, NULL, 0, 1, LIFO};
 
@@ -11,7 +13,7 @@ op_env_t op_env = {NULL, NULL, NULL, 0, 1, LIFO};
  */
 int main(int argc, char **argv)
 {
-	ssize_t n_read = 0;
+	size_t n_read = 0;
 
 	if (argc != 2)
 		pfailure("USAGE: monty file\n");
